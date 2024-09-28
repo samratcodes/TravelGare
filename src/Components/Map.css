@@ -1,0 +1,56 @@
+/* src/Map.css */
+
+/* Map.css */
+.leaflet-control-geosearch {
+    font-size: large;
+    position: absolute;
+    top: 10px; /* Adjust the vertical position */
+    left: 100px; /* Adjust the horizontal position */
+    z-index: 1000; /* Ensure it's above the map */
+     /* Optional: background for better visibility */
+   
+  }
+  .leaflet-control-geosearch .results {
+    font-size: 1rem;
+    padding: 4px;
+    border-radius: 20px;
+    background: white;
+    margin-top: 1px;
+  }
+.leaflet-control-geosearch input:focus {
+    outline: none;
+    border: 2px solid rgb(54,110,254);
+  }
+  .leaflet-control-geosearch input{
+    width: 400px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(39, 89, 197);
+    background: white;
+  }
+  .leaflet-control-geosearch button {
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(54,110,254);
+    background: rgb(54,110,254);
+    color: white;
+    cursor: pointer;
+  }
+  .leaflet-control-geosearch button:hover {
+    background: white;
+    color: rgb(54,110,254);
+  }
+  .leaflet-control-geosearch button:focus {
+    outline: none;
+  }
+  .leaflet-control-geosearch button:disabled {
+    background: rgb(200,200,200);
+    color: white;
+    cursor: not-allowed;
+  }
+  .leaflet-control-geosearch button:disabled:hover {
+    background: rgb(200,200,200);
+    color: white;
+  }
+
+  
